@@ -1,0 +1,10 @@
+path: ./YOLO_dataset/split
+train: 
+  - Video_IR/train/images
+  - Video_V/train/images
+val: 
+  - Video_IR/val/images
+  - Video_V/val/images
+
+nc: 4
+names: ['AIRPLANE', 'BIRD', 'DRONE', 'HELICOPTER']

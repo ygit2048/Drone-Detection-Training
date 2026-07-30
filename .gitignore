@@ -1,0 +1,24 @@
+# 数据集（太大）
+Data/
+YOLO_dataset/
+*.mp4
+*.avi
+*.mov
+*.mat
+
+# 训练输出
+runs/
+weights/*.pt
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# 日志等
+*.log
+*.tmp
